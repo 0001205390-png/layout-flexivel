@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "sans-serif";
+}
+body, html{
+    height: 100%;
+}
+body{
+    background-image: url("assets/login-riot-background.jpg");
+}
+.principal{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction:column;
+    background-color: rgba(97, 38, 233, 0.384);
+    gap: 20px;
+    height: 60%;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%
+}
+.logo{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.caixa{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    gap: 30px;
+    flex-direction:column;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:10px
+}
+input{
+    background-color: rgba(107, 43, 226, 0.062);
+    border-radius: 50px;
+    height: 40px;
+    width: 400px;
+    color: aliceblue;
+}
+.span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.resgate{
+    display: flex;
+    font-size: 12px;
+    gap:80px
+}
+.b1{
+    background-color:rgb(181, 107, 250);
+    border-radius: 50px;
+    height: 40px;
+    width: 400px;
+    color: aliceblue;
+}
+.a{
+    font-size: 12px;
+}
+.si{
+    font-size: 15px;
+}
+.b2{
+    background-color:rgb(246, 242, 250);
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+    
+}
+.G{
+    width: 30px;
+}
+.opcoes{
+    display: flex;
+    gap: 30px;
+}
+.b3{
+    background-color:rgb(17, 212, 17);
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;}
+.X{
+    width: 30px;
+}
